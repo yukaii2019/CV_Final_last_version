@@ -6,6 +6,8 @@
 我們推薦使用conda來建置環境，安裝環境的方法如下。
 ```shell script=
 conda env create -f environment.yml
+conda activate CV_final
+conda install -c conda-forge gdown
 ```
 
 # Dataset:
