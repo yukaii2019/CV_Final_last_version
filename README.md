@@ -37,7 +37,7 @@ In the directory "Segmentation/python/"
 ```shell script=
 bash run_train.sh ${dataset path}
 ```
-一開始會生成一個log-{time}的資料夾Segmentation/ 目錄底下。最好的model會被留在Segmentation/log-{time}/checkpoints底下。
+一開始會生成一個log-{time}的資料夾在Segmentation/ 目錄底下。最好的model會被留在Segmentation/log-{time}/checkpoints底下。
 
 # How to run inference:
 
@@ -49,7 +49,7 @@ bash download.sh
 這會create一個資料夾叫CV_Final_Checkpoints，裡面會有兩個我們已經train好的checkpoint。
 
 ## Run inference:
-我們已將使用的model的checkpoint的path hardcode在inference/run_inference.sh裡面，如果有需要，助教可以將inference/run_inference.sh裡面的classifier_checkpoint及segmatation_checkpoint兩個變數改成對應的路徑。\
+我們已將使用的model的checkpoint的path hardcode在inference/run_inference.sh裡面，如果有需要，助教可以將inference/run_inference.sh裡面的classifier_checkpoint及segmatation_checkpoint兩個變數改成對應的路徑。
 
 In the directory "inference/", run 
 ```shell script=
